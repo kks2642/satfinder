@@ -211,7 +211,7 @@ if st.button("검색"):
                         break
 
     # 5) 출력
-    st.subheader("📌 개요 (한국어 우선)")
+    st.subheader("📌 개요 (한국어 번역본)")
     st.write(f"**제목**: {summary.get('title')}")
     st.write(f"**설명**: {summary.get('description') or '—'}")
     if summary.get("extract"):
