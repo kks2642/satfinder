@@ -146,8 +146,6 @@ if c1.button("허블 우주 망원경"):
     st.session_state["query"] = "허블 우주 망원경"
 if c2.button("NOAA 19"):
     st.session_state["query"] = "NOAA 19"
-if c3.button("Sentinel-2A"):
-    st.session_state["query"] = "Sentinel-2A"
 if c4.button("스타링크-30000"):
     st.session_state["query"] = "스타링크-30000"
 
